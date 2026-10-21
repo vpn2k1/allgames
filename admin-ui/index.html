@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Quản lý game</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body class="admin">
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="/"><span class="logo" aria-hidden="true"></span>Games Hub · Admin</a>
+    <button type="button" id="new-game" class="btn">+ Thêm game</button>
+  </div>
+</header>
+<main class="admin-main">
+  <h1>Quản lý game</h1>
+  <p class="muted">Bật/tắt hiển thị, đổi thứ tự và chỉnh nội dung từng game. Thay đổi có hiệu lực ngay trên trang công khai.</p>
+  <p id="status" class="status" role="status"></p>
+
+  <ol id="list" class="admin-list"></ol>
+
+  <section id="editor" class="editor" hidden>
+    <h2 id="editor-title">Thêm game</h2>
+    <form id="form" autocomplete="off">
+      <fieldset>
+        <legend>Thông tin</legend>
+        <label>Tên game <span class="req">*</span><input name="name" required maxlength="100"></label>
+        <label>Phụ đề<input name="subtitle" maxlength="100"></label>
+        <label>Slogan<input name="tagline" maxlength="200"></label>
+        <label>Mô tả<textarea name="description" rows="4" maxlength="2000"></textarea></label>
+        <label class="switch"><input type="checkbox" role="switch" name="visible"><span class="track"></span><span class="switch-label">Hiển thị trên trang chủ</span></label>
+        <label class="switch"><input type="checkbox" role="switch" name="comingSoon"><span class="track"></span><span class="switch-label">Đánh dấu "Đang phát triển"</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Hình ảnh</legend>
+        <div class="media-row">
+          <img id="icon-preview" class="icon-preview" alt="" hidden>
+          <label>Icon (URL hoặc tải ảnh lên)<input name="icon" maxlength="500" placeholder="/uploads/... hoặc https://..."></label>
+        </div>
+        <label class="file">Tải icon (PNG/JPG/WebP, tối đa 5MB)<input type="file" accept="image/png,image/jpeg,image/webp" data-upload="icon"></label>
+        <label>Ảnh chụp màn hình (mỗi dòng một link)<textarea name="screenshots" rows="3" placeholder="/uploads/...&#10;https://..."></textarea></label>
+        <label class="file">Thêm ảnh chụp màn hình<input type="file" accept="image/png,image/jpeg,image/webp" data-upload="screenshot"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Link tải và cửa hàng</legend>
+        <label>Link tải Android (.apk)<input name="links.androidApk" maxlength="500" placeholder="/uploads/... hoặc https://..."></label>
+        <label class="file">Tải file .apk lên (tối đa 300MB)<input type="file" accept=".apk,application/vnd.android.package-archive" data-upload="apk"></label>
+        <label>Link Google Play<input name="links.playStore" maxlength="500" placeholder="https://play.google.com/store/apps/details?id=..."></label>
+        <label>Link tải iOS trực tiếp (tuỳ chọn)<input name="links.iosDirect" maxlength="500" placeholder="https://..."></label>
+        <p class="hint">Trên iOS, cài trực tiếp cần cấu hình ad-hoc hoặc OTA. Với app công khai, nên dùng link App Store hoặc TestFlight.</p>
+        <label>Link App Store<input name="links.appStore" maxlength="500" placeholder="https://apps.apple.com/..."></label>
+        <label>Link chơi web<input name="links.web" maxlength="500" placeholder="https://..."></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Chính sách quyền riêng tư</legend>
+        <label>Link ngoài (nếu chính sách nằm ở trang khác)<input name="privacy.url" maxlength="500" placeholder="https://... hoặc /privacy/..."></label>
+        <label>Ngày cập nhật<input name="privacy.updated" maxlength="40" placeholder="21/10/2026"></label>
+        <label>Nội dung HTML (dùng khi không có link ngoài)<textarea name="privacy.html" rows="10" class="mono" placeholder="<section><h2>Tổng quan</h2><p>...</p></section>"></textarea></label>
+        <p class="hint">Nội dung HTML được hiển thị nguyên văn. Chỉ dán nội dung bạn tin cậy.</p>
+      </fieldset>
+
+      <p id="form-error" class="error" role="alert" hidden></p>
+      <div class="form-actions">
+        <button type="submit" class="btn" id="save">Lưu</button>
+        <button type="button" class="btn ghost" id="cancel">Hủy</button>
+        <button type="button" class="btn danger" id="delete" hidden>Xoá game</button>
+      </div>
+    </form>
+  </section>
+</main>
+<script src="/admin/admin.js" type="module"></script>
+</body>
+</html>

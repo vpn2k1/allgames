@@ -1,0 +1,171 @@
+[
+  {
+    "slug": "paper-war",
+    "name": "Chiến Tranh Giấy",
+    "subtitle": "Paper War · Battle Paper",
+    "tagline": "Chọi bút qua những tờ giấy gấp — 2 người chơi trên cùng một máy.",
+    "description": "Trận chiến trên mặt giấy gấp: chọn loại giấy, loại bút và tên lính cho mỗi bên. Chơi offline với bạn trên cùng một máy hoặc với máy ở nhiều độ khó.",
+    "icon": "/assets/icons/paper-war.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 2,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": "https://paper-war-vn-872.web.app/play"
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>Chiến Tranh Giấy là game chơi offline. Chúng tôi không yêu cầu tạo tài khoản, không yêu cầu tên, email hay số điện thoại, và không bán dữ liệu của bạn.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu lưu trên thiết bị</h2>\n<p>Cài đặt (ngôn ngữ, âm thanh) và tiến trình chơi được lưu trong vùng lưu trữ riêng của ứng dụng trên thiết bị. Chúng tôi không có máy chủ để tải dữ liệu này lên. Gỡ ứng dụng sẽ xoá toàn bộ dữ liệu.</p>\n\n\n</section>\n<section>\n<h2>Dịch vụ của bên thứ ba</h2>\n<p>Ứng dụng dùng các dịch vụ sau để hoạt động. Chúng tôi không nhận được tên, email hay danh bạ của bạn từ các dịch vụ này.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Dịch vụ</th><th>Mục đích</th><th>Dữ liệu liên quan</th></tr></thead><tbody><tr><td>Firebase Remote Config</td><td>Bật/tắt tính năng và kiểm tra phiên bản tối thiểu</td><td>Mã cài đặt ứng dụng, phiên bản ứng dụng, nền tảng</td></tr><tr><td>Firebase Cloud Messaging</td><td>Gửi thông báo (tuỳ chọn)</td><td>Mã thông báo của thiết bị, thông tin thiết bị và phiên bản ứng dụng</td></tr><tr><td>Kiểm tra cập nhật (Google Play / App Store)</td><td>Thông báo khi có phiên bản mới</td><td>Mã ứng dụng, phiên bản đang cài, mã quốc gia của store</td></tr></tbody></table></div>\n<p class=\"links\">Chính sách của bên thứ ba: <a href=\"https://policies.google.com/privacy\" rel=\"noopener\">Google / Firebase</a>, <a href=\"https://www.apple.com/legal/privacy/\" rel=\"noopener\">Apple</a></p>\n</section>\n<section>\n<h2>Thông báo đẩy</h2>\n<p>Thông báo là tuỳ chọn. Ứng dụng xin quyền thông báo khi cần; bạn có thể từ chối hoặc tắt trong cài đặt hệ thống mà không ảnh hưởng tới việc chơi.</p>\n\n\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Dữ liệu trên thiết bị tồn tại cho đến khi bạn xoá dữ liệu hoặc gỡ ứng dụng. Dữ liệu kỹ thuật do Google/Apple xử lý được lưu giữ theo chính sách của họ.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    },
+    "updatedAt": "2026-10-21T09:22:13.261Z"
+  },
+  {
+    "slug": "triangle-master",
+    "name": "Triangle Master",
+    "subtitle": "Pencil Puzzle",
+    "tagline": "Nối các chấm thành tam giác với ít nét bút nhất.",
+    "description": "Game giải đố bằng bút chì: nối chấm để tạo thành các tam giác, mỗi màn có số nét tối ưu. Nhiều loại giấy và bút để chọn, chơi hoàn toàn offline.",
+    "icon": "/assets/icons/triangle-master.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 3,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "",
+      "url": "/privacy/triangle-master.html",
+      "updated": ""
+    }
+  },
+  {
+    "slug": "o-quan-viet",
+    "name": "Ô Quan Việt",
+    "subtitle": "Đấu Trí Dân Gian",
+    "tagline": "Ô ăn quan dân gian cho 2–4 người.",
+    "description": "Trò ô ăn quan trong bản Việt hoá, với chế độ đấu máy theo ba độ khó Dễ, Vừa, Khó, hoặc chơi cùng bạn trên cùng một máy.",
+    "icon": "/assets/icons/o-quan-viet.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 4,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>Ô Quan Việt là game chơi offline. Chúng tôi không yêu cầu tạo tài khoản và không thu thập tên, email hay số điện thoại của bạn. Tên người chơi bạn nhập chỉ được lưu trên thiết bị.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu lưu trên thiết bị</h2>\n<p>Cài đặt (ngôn ngữ, âm thanh, độ khó) và tiến trình được lưu trong vùng lưu trữ riêng của ứng dụng trên thiết bị. Gỡ ứng dụng sẽ xoá toàn bộ dữ liệu này.</p>\n\n\n</section>\n<section>\n<h2>Quảng cáo</h2>\n<p>Ứng dụng hiển thị quảng cáo của Google AdMob (quảng cáo banner và toàn màn hình). AdMob có thể xử lý mã quảng cáo của thiết bị (Advertising ID / IDFA), địa chỉ IP, loại thiết bị, hệ điều hành, quốc gia và tương tác với quảng cáo để hiển thị và chống gian lận quảng cáo.</p>\n<p>Bạn có thể đặt lại hoặc xoá mã quảng cáo trong cài đặt thiết bị: Android: Cài đặt → Google → Quảng cáo; iOS: Cài đặt → Quyền riêng tư & Bảo mật → Theo dõi.</p>\n\n<p class=\"links\">Chính sách của bên thứ ba: <a href=\"https://policies.google.com/privacy\" rel=\"noopener\">Google / Firebase</a></p>\n</section>\n<section>\n<h2>Dịch vụ khác</h2>\n<p>Firebase Remote Config dùng để bật/tắt tính năng và kiểm tra phiên bản (mã cài đặt ứng dụng, phiên bản, nền tảng). Shorebird Code Push dùng để tải bản sửa lỗi nhỏ mà không cần cập nhật qua store (phiên bản ứng dụng, nền tảng, kiến trúc thiết bị).</p>\n\n<p class=\"links\">Chính sách của bên thứ ba: <a href=\"https://policies.google.com/privacy\" rel=\"noopener\">Google / Firebase</a>, <a href=\"https://shorebird.dev/privacy/\" rel=\"noopener\">Shorebird</a></p>\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Dữ liệu trên thiết bị tồn tại cho đến khi bạn xoá dữ liệu ứng dụng hoặc gỡ cài đặt. Dữ liệu kỹ thuật do Google xử lý được lưu giữ theo chính sách của Google.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    }
+  },
+  {
+    "slug": "iron-turn",
+    "name": "VPN Tank",
+    "subtitle": "Iron Turn",
+    "tagline": "Bắn tăng theo lượt, roguelike 2D nét mịn.",
+    "description": "Chiến đấu theo lượt với đội xe tăng: chơi các chiến dịch, quản lý tiền và đồ trong game, rồi đấu với máy hoặc bạn bè trong phòng online. Chạy trên web (cài như PWA), iOS và Android.",
+    "icon": "/assets/icons/iron-turn.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 5,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>VPN Tank có tài khoản để lưu tiến trình và kết nối bạn bè khi chơi online. Chính sách này mô tả dữ liệu nào được lưu và lưu ở đâu.</p>\n\n\n</section>\n<section>\n<h2>Tài khoản</h2>\n<p>Bạn có thể chơi như khách: chỉ cần nhập tên hiển thị, hệ thống tạo một khoá khách lưu trên thiết bị để nhận diện bạn.</p>\n<p>Bạn cũng có thể đăng ký tài khoản bằng tên đăng nhập và mật khẩu. Mật khẩu được mã hoá một chiều (băm) trước khi lưu, chúng tôi không lưu mật khẩu gốc.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu lưu trên máy chủ</h2>\n<p>Khi bạn chơi online, máy chủ lưu: tên hiển thị, tiến trình chiến dịch, tiền và vật phẩm trong game, danh sách bạn bè và lời mời phòng, cùng kết quả các trận đấu (phòng, chế độ, số lượt, người thắng). Dữ liệu tài khoản khách sẽ được giữ cho đến khi bạn đăng ký tài khoản hoặc yêu cầu xoá.</p>\n\n\n</section>\n<section>\n<h2>Lưu trên thiết bị</h2>\n<p>Tiến trình và thiết lập được lưu trên thiết bị (localStorage của trình duyệt, hoặc bộ nhớ riêng của ứng dụng trên iOS và Android) để game chạy được khi không có mạng.</p>\n\n\n</section>\n<section>\n<h2>Hạ tầng và cập nhật</h2>\n<p>Máy chủ game chạy trên Cloudflare (Workers, Durable Objects và D1). Cloudflare có thể ghi nhật ký kỹ thuật như địa chỉ IP và thời gian truy cập theo chính sách của họ.</p>\n<p>Ứng dụng di động có thể tải bản cập nhật giao diện game từ máy chủ của chúng tôi mà không cần cập nhật qua store. Việc này không thu thập thêm dữ liệu cá nhân.</p>\n\n<p class=\"links\">Chính sách của bên thứ ba: <a href=\"https://www.cloudflare.com/privacypolicy/\" rel=\"noopener\">Cloudflare</a></p>\n</section>\n<section>\n<h2>Quảng cáo và phân tích</h2>\n<p>VPN Tank hiện không hiển thị quảng cáo và không dùng công cụ phân tích hành vi của bên thứ ba.</p>\n\n\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Bạn có thể yêu cầu xoá tài khoản và dữ liệu trên máy chủ bằng cách gửi email tới địa chỉ bên dưới. Dữ liệu trên thiết bị bị xoá khi bạn xoá dữ liệu trình duyệt hoặc gỡ ứng dụng.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    }
+  },
+  {
+    "slug": "100-dot-tre",
+    "name": "100 Đốt Tre",
+    "subtitle": "Nối Đường",
+    "tagline": "Nối đường qua các đốt tre — không cần mạng.",
+    "description": "Puzzle nối đường giữa các đốt tre, viết bằng Flutter thuần và hoàn toàn offline.",
+    "icon": "/assets/icons/100-dot-tre.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 6,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>100 Đốt Tre là game chơi hoàn toàn offline. Ứng dụng không yêu cầu tài khoản, không thu thập dữ liệu cá nhân, không có quảng cáo và không gửi dữ liệu nào ra bên ngoài thiết bị.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu</h2>\n<p>Ứng dụng không lưu thông tin cá nhân. Nếu có tiến trình trong game, nó chỉ nằm trong bộ nhớ của ứng dụng trên thiết bị và bị xoá khi bạn gỡ ứng dụng.</p>\n\n\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Không có dữ liệu nào được lưu giữ trên máy chủ của chúng tôi. Gỡ ứng dụng sẽ xoá mọi dữ liệu cục bộ.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    }
+  },
+  {
+    "slug": "dung-de-thay-thay",
+    "name": "Đừng Để Thầy Thấy!",
+    "subtitle": "Nhất Quỷ Nhì Ma",
+    "tagline": "Game lén lút hài hước trong lớp học Việt Nam.",
+    "description": "Game 2D kiểu stealth-comedy lấy bối cảnh lớp học Việt Nam, viết bằng Flutter và Flame. Chơi offline.",
+    "icon": "/assets/icons/dung-de-thay-thay.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": false,
+    "order": 7,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>Đừng Để Thầy Thấy! là game chơi offline. Ứng dụng không yêu cầu tài khoản, không thu thập thông tin cá nhân và không gửi dữ liệu ra bên ngoài thiết bị.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu lưu trên thiết bị</h2>\n<p>Tiến trình chơi và cài đặt (âm thanh, ngôn ngữ) được lưu trong vùng lưu trữ riêng của ứng dụng trên thiết bị. Gỡ ứng dụng sẽ xoá toàn bộ dữ liệu này.</p>\n\n\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Dữ liệu chỉ tồn tại trên thiết bị cho đến khi bạn xoá dữ liệu ứng dụng hoặc gỡ cài đặt.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    }
+  },
+  {
+    "slug": "keo",
+    "name": "KEO",
+    "subtitle": "Vượt Phòng Tuyến",
+    "tagline": "Vượt phòng tuyến — game offline.",
+    "description": "Game offline viết bằng Flutter và Flame, hiện đang trong giai đoạn phát triển.",
+    "icon": "/assets/icons/keo.png",
+    "screenshots": [],
+    "visible": true,
+    "comingSoon": true,
+    "order": 8,
+    "links": {
+      "androidApk": "",
+      "playStore": "",
+      "appStore": "",
+      "iosDirect": "",
+      "web": ""
+    },
+    "privacy": {
+      "html": "<section>\n<h2>Tổng quan</h2>\n<p>KEO là game chơi offline. Ứng dụng không yêu cầu tài khoản, không thu thập thông tin cá nhân và không gửi dữ liệu ra bên ngoài thiết bị.</p>\n\n\n</section>\n<section>\n<h2>Dữ liệu lưu trên thiết bị</h2>\n<p>Cài đặt và tiến trình màn chơi được lưu trong vùng lưu trữ riêng của ứng dụng trên thiết bị. Gỡ ứng dụng sẽ xoá toàn bộ dữ liệu này.</p>\n\n\n</section>\n<section>\n<h2>Trẻ em</h2>\n<p>Ứng dụng không nhắm tới trẻ em dưới 13 tuổi và chúng tôi không chủ ý thu thập thông tin cá nhân của trẻ em. Nếu bạn là phụ huynh và cho rằng con bạn đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>\n\n\n</section>\n<section>\n<h2>Lưu giữ và xoá dữ liệu</h2>\n<p>Dữ liệu chỉ tồn tại trên thiết bị cho đến khi bạn xoá dữ liệu ứng dụng hoặc gỡ cài đặt.</p>\n\n\n</section>\n<section>\n<h2>Liên hệ</h2>\n<p>Mọi câu hỏi về chính sách này, vui lòng gửi email tới <a href=\"mailto:vpnam2k1@gmail.com\">vpnam2k1@gmail.com</a>.</p>\n\n\n</section>\n<section>\n<h2>Thay đổi chính sách</h2>\n<p>Khi có thay đổi, chúng tôi sẽ cập nhật trang này và ngày “Cập nhật lần cuối”.</p>\n\n\n</section>",
+      "url": "",
+      "updated": "21/10/2026"
+    }
+  }
+]
