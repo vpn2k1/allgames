@@ -1,6 +1,8 @@
-# Games Hub
+# VPN Games
 
 Trang giới thiệu game, trang chi tiết (link tải Android/iOS/web), trang chính sách quyền riêng tư và trang admin để quản lý.
+
+Bộ nhận diện (logo, biểu tượng, banner và màu sắc) xem tại [BRAND.md](BRAND.md).
 
 ## Chạy local
 

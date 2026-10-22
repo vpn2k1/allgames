@@ -37,7 +37,7 @@ export function basicAuth({ user = process.env.ADMIN_USER || 'admin', password =
       const [u, ...rest] = Buffer.from(token, 'base64').toString('utf8').split(':');
       if (safeEqual(u ?? '', user) && safeEqual(rest.join(':'), password)) return next();
     }
-    res.set('WWW-Authenticate', 'Basic realm="Games Hub admin", charset="UTF-8"');
+    res.set('WWW-Authenticate', 'Basic realm="VPN Games admin", charset="UTF-8"');
     return res.status(401).type('text').send('Cần đăng nhập');
   };
 }
