@@ -6,6 +6,7 @@ import express from 'express';
 import multer from 'multer';
 import { put } from '@vercel/blob';
 import { createHash, timingSafeEqual, randomUUID } from 'node:crypto';
+import { mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as store from './lib/store.mjs';
@@ -68,7 +69,15 @@ export function createApp({ requireAdmin = basicAuth() } = {}) {
     storage: usingBlob
       ? multer.memoryStorage()
       : multer.diskStorage({
-          destination: uploadDir,
+          // Tạo thư mục khi có upload, không tạo lúc khởi động: hệ thống file Vercel chỉ đọc nên mkdir ở đây làm hàm crash.
+          destination: (_req, _file, cb) => {
+            try {
+              mkdirSync(uploadDir, { recursive: true });
+              cb(null, uploadDir);
+            } catch (err) {
+              cb(err);
+            }
+          },
           filename: (_req, file, cb) => {
             const ext = IMAGE_TYPES[file.mimetype] || (file.originalname.toLowerCase().endsWith('.apk') ? '.apk' : '');
             cb(null, `${randomUUID()}${ext}`);
