@@ -11,7 +11,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as store from './lib/store.mjs';
 import { ValidationError, usingBlob } from './lib/store.mjs';
-import { indexPage, gamePage, policyIndexPage, policyPage } from './lib/render.mjs';
+import { indexPage, gamePage, policyIndexPage, policyPage, robotsTxt, sitemapXml } from './lib/render.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const publicDir = join(root, 'public');
@@ -175,22 +175,30 @@ export function createApp({ requireAdmin = basicAuth() } = {}) {
       next(err);
     }
   };
-  const notFound = (res) => res.status(404).type('html').send('<p>Không tìm thấy trang. <a href="/">Về trang chủ</a></p>');
-  const findGame = async (slug) => (await store.list()).find((g) => g.slug === slug && g.visible);
+  const notFound = (res) => res.status(404).type('html').send('<meta name="robots" content="noindex"><p>Không tìm thấy trang. <a href="/">Về trang chủ</a></p>');
+  const lookup = async (slug) => {
+    const games = await store.list();
+    return { games, game: games.find((g) => g.slug === slug && g.visible) };
+  };
+  // CDN của Vercel giữ trang 60 giây, nên sửa trong admin hiện ra trong vòng 1 phút.
+  const html = (res, body) => res.set('Cache-Control', 'public, max-age=0, s-maxage=60, stale-while-revalidate=300').type('html').send(body);
 
-  app.get('/', wrap(async (_req, res) => res.type('html').send(indexPage(await store.list()))));
-  app.get('/privacy', wrap(async (_req, res) => res.type('html').send(policyIndexPage(await store.list()))));
+  app.get('/robots.txt', (_req, res) => res.type('text').send(robotsTxt()));
+  app.get('/sitemap.xml', wrap(async (_req, res) => res.set('Cache-Control', 'public, max-age=0, s-maxage=3600').type('application/xml').send(sitemapXml(await store.list()))));
+
+  app.get('/', wrap(async (_req, res) => html(res, indexPage(await store.list()))));
+  app.get('/privacy', wrap(async (_req, res) => html(res, policyIndexPage(await store.list()))));
 
   app.get('/game/:slug', wrap(async (req, res) => {
-    const game = await findGame(req.params.slug);
-    return game ? res.type('html').send(gamePage(game)) : notFound(res);
+    const { games, game } = await lookup(req.params.slug);
+    return game ? html(res, gamePage(game, games)) : notFound(res);
   }));
 
   app.get('/privacy/:slug', wrap(async (req, res) => {
-    const game = await findGame(req.params.slug);
+    const { games, game } = await lookup(req.params.slug);
     if (!game || !(game.privacy?.html || game.privacy?.url)) return notFound(res);
     if (!game.privacy.html) return res.redirect(302, game.privacy.url);
-    return res.type('html').send(policyPage(game, game.privacy.updated));
+    return html(res, policyPage(game, game.privacy.updated, games));
   }));
 
   app.use((err, _req, res, _next) => {

@@ -28,6 +28,8 @@ vercel --prod
 
 Kết nối Blob store với project sẽ tự thêm `BLOB_READ_WRITE_TOKEN`. Lần đầu, dữ liệu khởi tạo lấy từ `data/games.json`; sau lần lưu đầu tiên trong admin, dữ liệu nằm trên Blob.
 
+SEO: canonical, Open Graph, JSON-LD, `/sitemap.xml` và `/robots.txt` dùng địa chỉ gốc `https://vpngames.vercel.app`. Khi gắn tên miền riêng, đặt biến `SITE_URL` (ví dụ `https://vpngames.com`, không có dấu `/` cuối) rồi redeploy. Trang được CDN giữ 60 giây, nên sửa trong admin hiện ra sau tối đa 1 phút.
+
 Giới hạn trên Vercel: request tới hàm tối đa ~4.5MB, nên admin chỉ tải được ảnh (≤4MB). File APK hãy đưa lên GitHub Releases hoặc nơi lưu file khác rồi dán link vào ô "Link tải Android".
 
 ## Cấu trúc
