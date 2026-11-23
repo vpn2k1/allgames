@@ -1,0 +1,92 @@
+[
+  {
+    "name": "cockroach",
+    "path": "assets/images/cockroach.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "cockroach_bomb",
+    "path": "assets/images/cockroach_bomb.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "ladybug",
+    "path": "assets/images/ladybug.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "ant",
+    "path": "assets/images/ant.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "mosquito",
+    "path": "assets/images/mosquito.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "beetle",
+    "path": "assets/images/beetle.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "bomb",
+    "path": "assets/images/bomb.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "crumb",
+    "path": "assets/images/crumb.png",
+    "source": "Original custom vector illustration rendered with CairoSVG, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "256x256",
+    "alpha": true,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "kitchen",
+    "path": "assets/images/kitchen.png",
+    "source": "Original procedural vector-like floor illustration, not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "720x1200",
+    "alpha": false,
+    "technical_checks_passed": true
+  },
+  {
+    "name": "cover",
+    "path": "assets/images/cover.png",
+    "source": "Composition of original vector assets with Pillow; not GPT image generation",
+    "license": "Project-owned original artwork",
+    "size": "720x1100",
+    "alpha": true,
+    "technical_checks_passed": true
+  }
+]
